@@ -1,0 +1,48 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Fondo celeste claro */
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #007bff; /* Fondo azul oscuro para el menú */
+  padding: 10px 0;
+  width: 100%; /* Extender el menú a lo largo de toda la página */
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-container {
+  margin-top: 80px; /* Espacio para el menú fijo */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}

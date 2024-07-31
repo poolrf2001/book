@@ -1,0 +1,39 @@
+/* src/pages/ClaimDetails.css */
+
+.claim-details-container {
+  max-width: 600px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.claim-details-container h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.claim-details-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0056b3; /* Texto azul más claro */
+}
+
+.claim-details-container .error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .claim-details-container {
+    padding: 10px;
+  }
+
+  .claim-details-container p {
+    font-size: 16px;
+  }
+}
